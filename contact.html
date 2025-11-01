@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - InfinityBuilds | Professional Minecraft Builder</title>
+    <meta name="description" content="Get in touch with InfinityBuilds for custom Minecraft builds, collaborations, or professional building services. Contact form and information available.">
+    <link rel="icon" type="image/png" href="assets/images/Logo.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <!-- Background with gradient overlay -->
+    <div class="background-container contact-background">
+        <div class="background-image contact-bg-image"></div>
+        <div class="gradient-overlay"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="portfolio-title">Contact</h1>
+                <p class="hero-subtitle">Ready to bring your vision to life? Let's discuss your next Minecraft project.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">Get Professional Builds</h2>
+                    <p>Need high-quality Minecraft builds? We specialize in custom builds, build assets, and professional consultation.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">�</div>
+                            <div class="contact-details">
+                                <h3>Custom Builds</h3>
+                                <p>Tailored structures for your specific needs</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">🎯</div>
+                            <div class="contact-details">
+                                <h3>Build Assets</h3>
+                                <p>Pre-made professional builds ready to use</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">💼</div>
+                            <div class="contact-details">
+                                <h3>Consultation</h3>
+                                <p>Professional guidance for your projects</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="availability">
+                        <h3>Ready to Start</h3>
+                        <div class="availability-status">
+                            <span class="status-indicator available"></span>
+                            <span>Currently accepting new projects</span>
+                        </div>
+                        <p>Fast response time: Within 24 hours</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Project Inquiry</h2>
+                    <form action="https://formsubmit.co/infinitybuildsmc1@gmail.com" method="POST" class="minecraft-form">
+                        <!-- First & Last Name Row -->
+                        <div class="form-row">
+                            <div class="form-group half">
+                                <label for="first"><b>First Name</b> <span class="required">*</span></label>
+                                <input type="text" id="first" name="first" required>
+                            </div>
+                            <div class="form-group half">
+                                <label for="last"><b>Last Name</b> <span class="required">*</span></label>
+                                <input type="text" id="last" name="last" required>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group">
+                            <label for="email"><b>Email</b> <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <!-- Minecraft Username -->
+                        <div class="form-group">
+                            <label for="minecraft-username"><b>Minecraft Username</b></label>
+                            <input type="text" id="minecraft-username" name="minecraft_username" placeholder="Your IGN">
+                        </div>
+
+                        <!-- Project Type -->
+                        <div class="form-group">
+                            <label><b>Project Type:</b> <span class="required">*</span></label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="project_type" value="Custom Build" required>
+                                    Custom Build
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="project_type" value="Build Assets" required>
+                                    Build Assets
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="project_type" value="Consultation" required>
+                                    Consultation
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Budget Range -->
+                        <div class="form-group">
+                            <label for="budget"><b>Budget Range (Optional)</b></label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="Under $100">Under $100</option>
+                                <option value="$100 - $500">$100 - $500</option>
+                                <option value="$500 - $1000">$500 - $1000</option>
+                                <option value="$1000 - $2500">$1000 - $2500</option>
+                                <option value="$2500+">$2500+</option>
+                                <option value="Discuss">Prefer to discuss</option>
+                            </select>
+                        </div>
+
+                        <!-- Project Details -->
+                        <div class="form-group">
+                            <label for="message"><b>Project Details</b> <span class="required">*</span></label>
+                            <textarea id="message" name="message" required 
+                                placeholder="Describe your project: What do you want built? What style/theme? Any specific requirements? Timeline? Reference images or inspiration?"></textarea>
+                        </div>
+
+                        <!-- Hidden fields for FormSubmit -->
+                        <input type="hidden" name="_next" value="https://InfinityBuilds.com/thanks">
+                        <input type="hidden" name="_subject" value="New Minecraft Build Inquiry">
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="submit-btn">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <script src="shared/navbar.js"></script>
+    <script src="shared/footer.js"></script>
+    <script>
+        // Load navbar and set active page - Contact
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Contact page loading navbar...');
+            console.log('Navbar container:', document.getElementById('navbar-container'));
+            if (typeof loadNavbar === 'function') {
+                loadNavbar('contact');
+                console.log('loadNavbar function called');
+            } else {
+                console.error('loadNavbar function not found!');
+            }
+            
+            // Load footer
+            if (typeof loadFooter === 'function') {
+                loadFooter();
+                console.log('loadFooter function called');
+            } else {
+                console.error('loadFooter function not found!');
+            }
+        });
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
