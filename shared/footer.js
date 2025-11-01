@@ -29,6 +29,8 @@ function loadFooter() {
                     <h4>Connect</h4>
                     <div class="connect-links">
                         <p><span class="connect-label">Website:</span> <a href="https://infinitybuildsmc.com" class="connect-link">infinitybuildsmc.com</a></p>
+                        <p><span class="connect-label">Instagram:</span> <a href="https://www.instagram.com/infinitybuildsmc/" class="connect-link" target="_blank">@infinitybuildsmc</a></p>
+                        <p><span class="connect-label">X (Twitter):</span> <a href="https://x.com/infinityfrommc?s=21&t=3sl3gIy-MIMXhm4PLkgbcw" class="connect-link" target="_blank">@infinityfrommc</a></p>
                     </div>
                 </div>
             </div>
