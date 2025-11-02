@@ -315,48 +315,11 @@ img {
     overflow: hidden;
 }
 
-/* Specific aspect ratios for each build - matching actual image proportions */
-.build-card[data-build="loriostrond"] {
-    aspect-ratio: 19 / 10; /* 1.9:1 - wide landscape similar to actual 4096x2160 */
-}
-
-.build-card[data-build="aurelios"] {
-    aspect-ratio: 19 / 10; /* 1.9:1 - wide landscape similar to actual 4096x2160 */
-}
-
-.build-card[data-build="adventus-mortis"] {
-    aspect-ratio: 1 / 1; /* 1:1 - square */
-}
-
-.build-card[data-build="heliox-station"] {
-    aspect-ratio: 1 / 1; /* 1:1 - square */
-}
-
-.build-card[data-build="yuanhua-pagoda"] {
-    aspect-ratio: 16 / 9; /* 16:9 - standard widescreen */
-}
-
-.build-card[data-build="loriostrond"] {
-    aspect-ratio: 19 / 10; /* 1.9:1 - wide landscape to match row above */
-}
-
-.build-card[data-build="palais-lumiere"] {
-    aspect-ratio: 25 / 18; /* 1.39:1 - matches FrenchFront 3000x2160 dimensions */
-}
-
-.build-card[data-build="christmas-build-battle"] {
-    aspect-ratio: 16 / 9; /* 16:9 - standard widescreen matches 3840x2160 */
-}
-
-.build-card[data-build="cma"] {
-    aspect-ratio: 2800 / 2160; /* 1.296:1 - matches CMACinematic 2800x2160 dimensions */
-}
-
 .build-card:hover {
     transform: scale(1.02);
-    border-color: var(--gold-color);
+    border-color: #053A4A;
     box-shadow: 
-        0 0 30px rgba(255, 215, 0, 0.4),
+        0 0 30px rgba(5, 58, 74, 0.4),
         0 15px 40px rgba(0, 0, 0, 0.6);
 }
 
